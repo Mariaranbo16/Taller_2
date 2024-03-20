@@ -39,3 +39,36 @@ print (a and b)
 
 # Los operadores booleanos y de comparación son muy utilizados al
 # definir condiciones 
+
+
+# Estructura de contro del código: En general un programa se ejecuta
+# línea por línea de forma secuencial. Se puede romper esa secuencialidad 
+# empleando un conjunto de sentencias (expresiones) que permite:
+# 1. Seleccionar la ejecución de un bloque de código
+# 2. Repetir la ejecución de un bloque de código
+# 3. Seleccionar entre ejecutar un bloque de código y otro bloque de código
+# De esta manera podemos "romper" la secuencialidad
+# Principios del paradigma de programación estructurado 
+
+# Sentencia if. Si se cumple una condición (se evalua como True) 
+# se ejecuta un bloque de código 
+
+'''
+print ("Línea 1")
+print ("Línea 2")
+
+if 5>8 or 3<7:
+    print ("Esto se muestra si la condición es verdadera")
+else:    
+    print ("Esto se muestra si la condición es falso")
+'''
+
+entrada = int(input("¿Cuántos años tiene? "))
+
+if entrada < 18:
+    print ("Es un menor de edad")
+else:    
+    print ("Ya está grande, deje de chillar")
+
+#Taller: Crear un programa en python que genere un numero aleatorio 
+# Entre 2 y 12. Si el numero es 7 imprimir ganó si no imprimir deje el juego
