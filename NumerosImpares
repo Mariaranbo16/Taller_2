@@ -1,0 +1,10 @@
+def imprimir_impares(numero):
+    for i in range(-numero, numero + 1):
+        if i % 2 != 0:
+            print(i)
+
+try:
+    numero = int(input("Ingrese un número: "))
+    imprimir_impares(abs(numero))  # Tomamos el valor absoluto del número para asegurarnos de manejar el rango correctamente
+except ValueError:
+    print("Error: Debe ingresar un número entero.")
